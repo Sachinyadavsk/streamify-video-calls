@@ -2,7 +2,7 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://Sachinyadavsk.github.io/streamify-video-calls",
+  "homepage": "http://Sachinyadavsk.github.io/streamify-video-calls/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
@@ -23,6 +23,7 @@
     "react-router": "^7.5.1",
     "stream-chat": "^8.60.0",
     "stream-chat-react": "^12.14.0",
+    "streamify": "file:..",
     "zustand": "^5.0.3"
   },
   "devDependencies": {

@@ -12,7 +12,7 @@ const queryClient = new QueryClient();
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/strem-video-app">
       <QueryClientProvider client={queryClient}>
         <App />
       </QueryClientProvider>
